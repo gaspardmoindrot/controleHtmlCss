@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Site HTML/CSS</title>
+    </head>
+
+    <body>
+        <nav id="navig">
+            <ul class="mylist">
+                <li class="hover">La phrase</li>
+                <li class="hover">Les signes de ponctuation</li>
+                <li class="hover">Les types de phrases</li>
+                <li class="hover">Quiz</li>
+            </ul>
+        </nav>
+        
+        <section id="sRed">
+            <h1 id="phrases">Leçon 1 : La phrase</h1>
+            <p>Une <em class="rEM">phrase</em> est un <em class="rEM">groupe de mots.</em></p>
+            <p>Il y a une <em class="rEM">majuscule</em> au <em class="rEM">début.</em></p>
+            <p>Il y a un <em class="rEM">point</em> à la <em class="rEM">fin.</em></p>
+            <p>Ca <em class="rEM">a du sens.</em></p>
+        </section>
+
+        <section id="sGreen">
+            <h1 id="signes">Leçon 2 : Les signes de ponctuation</h1>
+            <p><em class="gEM" id="Point">.</em> : Le <em class="gEM">point</em> termine qui sert à <em class="gEM">raconter</em></p>
+            <p><em class="gEM" id="Point">?</em> : Le <em class="gEM">point d'interrogation</em> termine une phrase qui sert à <em class="gEM">poser une question</em></p>
+            <p><em class="gEM" id="Point">!</em> : Le <em class="gEM">point d'exclamation</em> termine une phrase qui sert à <em class="gEM">exprimer une émotion, un sentiment, ou à donner un ordre</em></p>
+        </section>
+
+        <section id="sBlue">
+            <h1 id="types">Les types de phrase</h1>
+            <p>Il existe 4 types de phrases :</p>
+            <ol>
+                <li>La phrase <em class="bEM">déclarative</em> : Lorsqu'on dit quelque chose, qu'on raconte. Elle se termine par un <em class="bEM">point (.).</em></li>
+                <li>La phrase <em class="bEM">interrogative</em> : Lorsqu'on pose une question. Elle se termine par un <em class="bEM">point d'interrogation (?).</em></li>
+                <li>La phrase <em class="bEM">exclamative</em> : Lorsqu'on exprime un sentiment ou une émotion. Elle se termine par un <em class="bEM">point d'exclamation (!).</em></li>
+                <li>La phrase <em class="bEM">impérative</em> : Lorsqu'on donne un ordre. Elle se termine par un <em class="bEM">point (.) ou un point d'exclamation (!).</em></li>
+            </ol>
+        </section>
+
+        <section id="sYellow">
+            <p id="quiz" class="marginC">Prénom :</p>
+            <input class="inputText" type="text" style="width: 100%;">
+            <p class="marginC">Nom :</p>
+            <input class="inputText" type="text" style="width: 100%;">
+            <p>Dis si la phrase suivante est correcte :</p>
+            <li class="end">je suis en CE1</li>
+            <input type="checkbox"> Oui
+            <input type="checkbox"> Non
+            <p>La phrase suivante est-elle une phrase interrogative :</p>
+            <li class="end">Où est Brian ?</li>
+            <input type="checkbox"> Oui
+            <br/>
+            <input type="checkbox" style="margin-bottom: 20px"> Non
+            <br/>
+            <button style="background-color: rgb(255, 237, 203); border-radius: 20px; border: 1px solid #000;">Vérifier</button>
+            <button style="background-color: rgb(255, 237, 203); border-radius: 20px; border: 1px solid #000;">effacer les réponses</button>
+        </section>
+        
+    </body>
+</html>
